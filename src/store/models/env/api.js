@@ -1,8 +1,9 @@
+/*
 import {
     post,
     endpoints,
 } from '../../api';
-
+*/
 
 export function apiSample () {
     return new Promise((resolve) => {

@@ -15,13 +15,16 @@ function Home  () {
 
     useEffect(() => {
         envStore.loadData();
+
+        // eslint-disable-next-line
     }, []);
 
     useEffect(() => {
         if (envStore.message) {
             setMessage(envStore.message);
         }
-    
+        
+        // eslint-disable-next-line
     }, [envStore.observed.message]);
 
     return (
